@@ -21,20 +21,30 @@ h1 {
     text-align: center;
     border-radius: 20px;
 background-color: rgb(255, 232, 184);
-box-shadow: 3px 3px rgb(255, 255, 255);
+box-shadow: 3px 3px rgb(211, 208, 208);
 }
 
-.card {
+.box {
 
 background-color: rgb(169, 221, 255);
+border-radius: 10px;
+box-shadow: 3px 3px rgb(211, 208, 208);
+width: 275px;
+height: 160px;
 
 }
 
-.top {
+.box-header {
 
 text-align: center;
 background-color: rgb(248, 227, 144);
+border-radius: 6px;
 
+}
+
+.vball {
+display:grid;
+place-content: center;
 }
 
 
@@ -48,30 +58,48 @@ background-color: rgb(248, 227, 144);
 </div>
 
 <br>
+<br>
+<div class="vball">
+<img src="https://www.fivb.com/wp-content/uploads/2024/03/rules1.jpg" alt="volleyball" id="volley" width="565px" height="350px">
+ </div>
+<br>
+<br>
+<br>
 
-<img src="https://www.fivb.com/wp-content/uploads/2024/03/rules1.jpg" alt="volleyball" id="volley" width="575px" height="350px">.
- 
-<br><br>
+<div class="row g-3">
+<div class="col-md-4">
+  <div class="box">
+    <div class="box-header">Basic Rules</div>
+    <ul>
+      <li>Max of 6 players</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>
+  </div>
 
-<div class="row gap-3">
     <div class="col-md-4">
-<div class="card">
-       <div class="top">Basic Rules</div>
-       <ul>
-        <li>Max of 6 players</li>
-        <li>Two</li>
-        <li>Three</li>
-       </ul>
-    </div> 
-    
-    <div class="col-md-4">
-        content
-    </div> 
-    
-    <div class="col-md-4">
-        content
-    </div> 
+  <div class="box">
+    <div class="box-header">Volleyball Equipment</div>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>
+</div>
 
-    </div>
+<div class="col-md-4">
+    <div class="box">
+    <div class="box-header">Basic Techniques</div>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>
+</div>
+
+</div>
 </body>
 </html>
